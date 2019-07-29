@@ -1,7 +1,15 @@
 import React from 'react';
+import Select from 'react-select';
 import Board from './Board';
+import ShoppingList from './ShoppingList'
 
 class Game extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
+
     render() {
         return(
             <div className='game'>
